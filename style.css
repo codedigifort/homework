@@ -1,0 +1,12 @@
+.head {
+    background-color: blue;
+    color: white;
+    line-height: 30px;
+}
+.table {
+    width: 75%;
+    margin: 200px;
+}
+tr:nth-child(even){
+    background-color: wheat;
+}
