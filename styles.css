@@ -1,0 +1,33 @@
+body {
+    /* by default body takes 8px pf margin */
+    margin: 0px;
+    /* background-image: url("https://image.cnbcfm.com/api/v1/image/103135046-GettyImages-110022758.jpg?v=1446585058");
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    */
+}
+
+div {
+    height: 600px;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+
+#div_5{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-aston-martin-db11-mmp-1-1578936809.jpg");
+}
+#div_2{
+    background-image: url("https://aml-prod-images.azureedge.net/media/images/default-source/models/vanquish/vanquish_03_asset_01.jpg?sfvrsn=2ad6bf9_2&width=1440&format=webp&quality=60");
+}
+#div_3{
+    background-image: url("https://aml-prod-images.azureedge.net/media/images/default-source/models/vanquish/vanquish_03_asset_03_l.jpg?sfvrsn=dad6bf9_2&width=NaN&format=webp&quality=50");
+}
+#div_4{
+    background-image: url("https://aml-prod-images.azureedge.net/media/images/default-source/models/vanquish/vanquish_03_asset_25_l.jpg?sfvrsn=93ad6bf9_2&width=NaN&format=webp&quality=50");
+}
+#div_1{
+    background-image: url("https://aml-prod-images.azureedge.net/media/images/default-source/models/vanquish/vanquishs_volante_texture.png?sfvrsn=64336bf9_2&w=1200&format=jpg&quality=50&format=webp");
+}
+/* - assign a background image to each div with size 100% 100% */
+/* - apply background-attachement to all the div and check the output */
+/* check whether you get a parallax effect or not */
