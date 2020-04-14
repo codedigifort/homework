@@ -1,0 +1,45 @@
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+#header {
+    background-color: lightsteelblue;
+}
+#header .logo{
+    width: 20%;
+}
+
+#header .logo img{
+    width: 100%;
+}
+#header .nav{
+    width: 70%;
+    padding-top: 70px;
+    padding-right: 70px;
+}
+#header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#header ul li{
+    display: inline-block;
+    background-color: lightblue;
+    width: 10%;
+    text-align: center;
+    padding: 10px;   
+}
+#header ul li a{
+    text-decoration: none;
+    color: darkblue;
+}
+.sub-men {
+    display: none;
+}
+
+#men:hover .sub-men {
+    display: block;
+}
