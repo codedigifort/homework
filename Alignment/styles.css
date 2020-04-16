@@ -1,7 +1,6 @@
 .left{
     float: left;
 }
-
 .right{
     float: right;
 }
@@ -20,26 +19,55 @@
     padding-top: 70px;
     padding-right: 70px;
 }
-#header ul {
+ul {
     list-style: none;
-    margin: 0px;
+    margin: 0px 0px 100px;
     padding: 0px;
 }
-#header ul li{
+ul li{
     display: inline-block;
     background-color: lightblue;
     width: 10%;
     text-align: center;
-    padding: 10px;   
+    padding: 10px;
+    position: relative;
+    vertical-align: top;   
 }
-#header ul li a{
+ul li::after{
+    content: "";
+    border: 8px solid black;
+    border-color: black transparent transparent;
+    position: absolute;
+    bottom: 5px;
+}
+ul li a{
     text-decoration: none;
     color: darkblue;
 }
 .sub-men {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    left: 0%;
+    width: 100%;
+    /* hide sub-menu by default */
     display: none;
-}
 
-#men:hover .sub-men {
+}
+.sub-men ul li{
+    width: 100%;
     display: block;
+    padding: 10px 0px;
+    margin-bottom: 1px;
+}
+li:hover .sub-men {
+    display: block;
+}
+.border-red{
+    width: 30%;
+    border: 2px solid red;
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
 }
