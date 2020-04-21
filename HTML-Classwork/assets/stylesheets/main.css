@@ -1,0 +1,104 @@
+/* Global Settings */
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+/* Helper Classes */
+/* Float properties */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Width 100% for images */
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.search{
+    width: 60%;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.header{
+    background-color: #333545;
+}
+.mini-nav{
+    margin: 20px;
+}
+.mini-nav ul li{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    padding: 10px;
+}
+.mini-nav ul li::after{
+    content: "";
+    border: 5px solid #ffffff;
+    border-color: #ffffff transparent transparent;
+    position: absolute;
+    /* bottom: 5px; */
+    top: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.mini-nav ul li a{
+    color: #ffffff;
+    padding: 5px;
+}
+/* Generic CSS */
+#header {
+    background-color: #333545;
+}
+
+#search{
+    width: 400px;
+}
+
+#main-navigation {
+
+}
+
+#main {
+
+}
+
+#footer {
+
+}
+
+/* Page Specific CSS */
