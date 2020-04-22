@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#header{
+    width: 100%;
+}
+#logo{
+    width: 10%;
+}
+#logo a img{
+    width: 100%;
+}
