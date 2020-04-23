@@ -1,22 +1,37 @@
-body{
+body {
     margin: 0px;
 }
-.right{
+.right {
     float: right;
 }
-.left{
+.left {
     float: left;
 }
-clear:after{
+.clear:after {
     content: "";
     display: block;
     clear: both;
 }
 #header{
     width: 100%;
+    background-color: #333545;
+}
+#search{
+    margin-top: 28px;
+    margin-left: 30px;
+    /* width: 600px; */
+}
+#search input{
+    width: 600px;
+    height: 35px;
+    border-radius: 5px;
+
 }
 #logo{
     width: 10%;
+    /* margin-left: 50px;
+    margin-top: 30px; */
+    padding: 30px;
 }
 #logo a img{
     width: 100%;
