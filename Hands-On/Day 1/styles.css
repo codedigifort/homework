@@ -66,3 +66,6 @@ ul li a:hover{
 #right-nav ul li:nth-child(3)::after,#right-nav ul li:last-child::after{
     border-color:transparent;
 }
+#sub-header{
+    background-color: #1f2533;
+}

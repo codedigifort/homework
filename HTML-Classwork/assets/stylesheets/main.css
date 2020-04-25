@@ -107,16 +107,17 @@ p {
 .search-ico{
     color: grey;
     background-color: #ffffff;
-    margin-right: 0px;
+    /* margin-left: 200px; */
+    /* margin-right: 0px; */
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 #search{
     width: 500px;
     height: 35px;
-    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     border: 0px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
 }
 
 #main-navigation {
