@@ -1,0 +1,24 @@
+#header{
+    border: 1px solid red;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 7%;
+}
+img{
+    width: 100%;
+}
+#main-nav{
+    width: 50%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}

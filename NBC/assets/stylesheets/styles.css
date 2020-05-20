@@ -1,0 +1,148 @@
+/* Global Settings */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+/* Helper Classes */
+/* Float properties */
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Width 100% for images */
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Generic CSS */
+#topbar{
+    background-color: #000;
+    padding: 0px 15px;
+}
+
+#topbar a{
+    opacity: .6;
+    color: #FFF;
+}
+#topbar ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.search{
+    padding: 10px;
+}
+#topbar ul li a:hover{
+    opacity: 1;
+}
+#header {
+    background-color: #12223B;
+}
+#header .logo{
+    width: 20%;
+}
+#header .logo a{
+    display: block;
+    padding: 15px 10px;
+}
+#header .logo img {
+    width: 25%;
+    vertical-align: middle;
+}
+#header .logo span{
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 40px;
+}
+#header .menu{
+    width: 8%;
+}
+#header .menu a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+    border-left: 1px solid #fff;
+}
+#main-navigation {
+    width: 65%;
+}
+#main-navigation ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 35px;
+
+}
+#main-navigation ul li a{
+    color: #fff;
+}
+#main-content{
+    margin: 0px, auto;
+}
+#main-content .col{
+    width: 30%;
+}
+#main-content .col img{
+    width: 40%;
+}
+#main-content .col .sub-col{
+    position: relative;
+}
+#main-content .col .sub-col .col-1{
+    position: absolute;
+    /* position: absolute; */
+}
+#main-content .col .sub-col .col-2{
+    position: absolute;
+    left: 120px;
+    /* position: absolute; */
+}
+
+/* #main {
+
+}
+
+#footer {
+
+} */
+
+/* Page Specific CSS */
