@@ -22,3 +22,24 @@ ul{
     margin: 0px;
     padding: 0px;
 }
+.side-bar{
+    width: 25%;
+}
+.main-cont{
+    width: 70%;
+}
+.row_2{
+    display: flex;
+    border: 1px solid red;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+.main-cont{
+
+}
+.main-cont img{
+    width: 30%;
+}
+.main-cont p{
+    width: 60%;
+}

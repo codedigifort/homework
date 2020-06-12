@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <script src="https://kit.fontawesome.com/b06605e970.js"></script>
+    <script src="assets/javascripts/products.js"></script>
+    <script src="assets/javascripts/model.js"></script>
+    <script src="assets/javascripts/main.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="overlay"></div>
+
+        <div id='cart'>
+            <h2>Products in your cart | Total Products <span id="product_count">0</span> | Total Amount <span
+                    id="cart_sum">00</span></h2>
+            <table id="cartList">
+            </table>
+        </div>
+
+        <header id="header">
+            <div class="row">
+                <div class="col logo">
+                    <h1>Online Shopping</h1>
+                </div>
+                <div class="cart col">
+                    <button class="cart_btn"><i class="fas fa-cart-plus"></i> Cart <span
+                            id="cart_count"></span></button>
+                </div>
+                <div class="col search">
+                    <form action="#">
+                        <input type="text" id="search" placeholder="Seach Products">
+                        <button type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h2>Featured Products</h2>
+            <hr>
+            <ul id="productsList"></ul>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
